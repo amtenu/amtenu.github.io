@@ -61,27 +61,27 @@ const NavBar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick}    to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link  onClick={handleClick}    to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick}    to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick}    to="project" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="project" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick}    to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -92,7 +92,7 @@ const NavBar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 ">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/amanuel-nigussie/"
               className="flex justify-between items-center w-full text-gray-300"
             >
               LinkedIn <FaLinkedin size={30} />
@@ -100,7 +100,7 @@ const NavBar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black-600 ">
             <a
-              href="/"
+              href="https://github.com/amtenu"
               className="flex justify-between items-center w-full text-gray-300"
             >
               GitHub <FaGithub size={30} />
@@ -108,15 +108,20 @@ const NavBar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-600 ">
             <a
-              href="/"
+              href="mailto:
+              amannugussie@gmail.com
+              
+              "
               className="flex justify-between items-center w-full text-gray-300"
             >
-              Email <HiOutlineMailOpen size={30} />
+              <Link to="contact" smooth={true} duration={500}>
+                Email <HiOutlineMailOpen size={30} />
+              </Link>
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600 ">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/amanuel-nigussie/"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />
